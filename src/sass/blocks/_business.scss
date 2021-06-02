@@ -1,0 +1,117 @@
+.business {
+    min-height: 1300px;
+    padding: 70px 0 80px;
+    background: linear-gradient(180deg, #313130 0%, #020202 100%);
+}
+
+.slider__subtitle,
+.companies__subtitle {
+    margin-top: 14px;
+}
+
+.slider {
+    min-height: 590px;
+    padding: 65px 125px 73px 0;
+    background: url('../img/business_slider.png') no-repeat 50%/cover;
+    position: relative;
+    &__wrapper {
+        max-width: 630px;
+        margin-left: auto;
+    }
+    &__slider {
+        margin-top: 12px;
+    }
+    &__slide {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        &>img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 218px;
+            height: 432px;
+            z-index: 16;
+        }
+    }
+    &__text {
+        max-width: 360px;
+        margin-left: auto;
+    }
+    &__slider-counter {
+        position: absolute;
+        bottom: 73px;
+        left: 60%;
+        display: flex;
+        align-items: center;
+    }
+    &__slider-prev,
+    &__slider-next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        background: $main-color;
+        padding: 2px;
+        transition: all 0.15s ease-in-out;
+        &_inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+            width: 100%;
+            height: 100%;
+            &>img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    &__slider-prev {
+        margin-right: 10px;
+    }
+    #current {
+        margin-left: 21px;
+    }
+    #current,
+    #total {
+        font-weight: 400;
+        font-size: 13px;
+        color: #939393;
+    }
+}
+
+.companies {
+    &__wrapper {
+        margin-top: 106px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    &__item {
+        border: 10px solid rgba(49, 49, 48, 0.5);
+        max-width: 360px;
+        width: 100%;
+        padding: 30px;
+    }
+    &__icn {
+        width: 50px;
+        height: 50px;
+        transition: all .15s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__title {
+        margin-top: 21px;
+    }
+}

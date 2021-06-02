@@ -1,0 +1,272 @@
+    @media(max-width: 1599px) {}
+    
+    @media(max-width: 1200px) {
+        .container {
+            max-width: 994px;
+        }
+        .mainscreen {
+            padding: 22px 10px 65px;
+        }
+        .promo {
+            padding: 84px 10px 50px 0;
+        }
+        .police {
+            padding: 69px 10px 79px;
+        }
+        .services {
+            padding: 74px 10px 56px;
+        }
+        .footer {
+            padding: 70px 0px;
+        }
+        .instruction {
+            padding: 0 10px;
+        }
+        .contacts {
+            padding: 0 10px;
+        }
+        .contacts__map {
+            max-width: 434px;
+        }
+        .copyright {
+            padding: 0 10px;
+        }
+        .copyright__text {
+            text-align: center;
+        }
+        .request {
+            padding: 20px 10px;
+        }
+        .request__photos-text {
+            min-height: 80px;
+        }
+    }
+    
+    @media(max-width: 992px) {
+        .mainscreen__banner {
+            font-size: 380px;
+        }
+        .promo__photo {
+            max-width: 360px;
+        }
+        .consultation {
+            padding: 0px 20px 0px 0;
+        }
+        .contacts__info,
+        .contacts__map {
+            max-width: 370px;
+        }
+        .modal {
+            max-width: 740px;
+            padding: 40px 10px 40px;
+        }
+        .modal__input {
+            width: 220px;
+        }
+    }
+    
+    @media(max-width: 768px) {
+        .mainscreen__banner {
+            font-size: 280px;
+        }
+        .request__header {
+            padding-top: 30px;
+        }
+        .request__text {
+            padding: 0 4px 0 2px;
+        }
+        .request__wrapper {
+            flex-direction: column;
+        }
+        .request__input {
+            width: 100%;
+        }
+        .request__photos_width {
+            max-width: 100%;
+        }
+        .request__photo_newtext,
+        .request__photoone_newtext {
+            width: 100%;
+        }
+        .request__photos-text {
+            min-height: 0;
+        }
+        .promo {
+            padding: 84px 10px 50px 10px;
+        }
+        .promo__photo {
+            display: none;
+        }
+        .police,
+        .slider,
+        .consultation {
+            background: #000;
+        }
+        .slider {
+            padding: 65px 10px 73px 10px;
+        }
+        .slider__text {
+            max-width: 340px;
+        }
+        .slider__slide>img {
+            width: 200px;
+            height: 370px;
+        }
+        .companies__items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .companies__item {
+            margin-bottom: 10px;
+        }
+        .table__data:not(:first-child) {
+            padding: 0 12px;
+        }
+        .table__str {
+            padding: 10px 2px 10px 10px;
+            font-size: 16px;
+        }
+        .table__total {
+            padding: 10px 2px 10px 10px;
+        }
+        .consultation {
+            padding: 20px 20px;
+        }
+        .consultation__wrapper {
+            margin: 0 auto;
+        }
+        .instruction__items {
+            flex-wrap: wrap;
+        }
+        .contacts__info {
+            max-width: 80%;
+        }
+        .contacts__wrapper {
+            justify-content: center;
+        }
+        .contacts__tel,
+        .contacts__address,
+        .contacts__mail {
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .contacts__text {
+            text-align: center;
+        }
+        .contacts__btn {
+            margin: 0 auto;
+        }
+        .contacts__map {
+            height: 450px;
+            max-width: 80%;
+        }
+        .modal__form {
+            flex-direction: column;
+            align-items: center;
+        }
+        .modal__input {
+            width: 80%;
+        }
+    }
+    
+    @media(max-width: 576px) {
+        .request__return {
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+        }
+        .request__photos {
+            margin-top: 30px;
+        }
+        .mainscreen {
+            background: url(../img/mainscreen_bg-mobile.jpg) no-repeat 50%/cover;
+        }
+        .mainscreen__banner {
+            display: none;
+        }
+        .mainscreen__header {
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            & .btn {
+                margin-top: 15px;
+                order: 3;
+                width: 80%;
+            }
+        }
+        .mainscreen__title {
+            font-size: 25px;
+        }
+        .title {
+            font-size: 30px;
+        }
+        .subtitle,
+        .mainscreen__subtitle {
+            font-size: 18px;
+            padding-bottom: 0;
+            &::after {
+                display: none;
+            }
+        }
+        .mainscreen__subtitle {
+            padding-bottom: 20px;
+            &::after {
+                display: none;
+            }
+        }
+        .mainscreen__footer {
+            margin-top: 40px;
+        }
+        .slider {
+            padding-bottom: 90px;
+        }
+        .slider__slide>img {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .slider__text {
+            padding-top: 390px;
+        }
+        .slider__slider-counter {
+            bottom: 14px;
+            left: 5%;
+        }
+        .business {
+            padding-bottom: 0;
+        }
+        .table__str {
+            padding: 10px 2px 10px 2px;
+            font-size: 13px;
+        }
+        .table__str span.table__str_s12 {
+            font-size: 12px;
+        }
+        .table__total {
+            padding: 10px 2px 10px 2px;
+            font-size: 14px;
+        }
+        .table__data:not(:first-child) {
+            padding: 0 2px;
+        }
+        .table__data:not(:first-child):nth-child(2) {
+            font-size: 11px;
+        }
+        .table__data:not(:first-child):nth-child(3) {
+            font-size: 11px;
+        }
+        .table__data:not(:first-child):nth-child(4) {
+            font-size: 11px;
+        }
+        .footer {
+            padding: 0 0;
+        }
+        .instruction__items {
+            flex-direction: column;
+            align-items: center;
+        }
+        .contacts__map {
+            height: 370px;
+            max-width: 96%;
+        }
+    }

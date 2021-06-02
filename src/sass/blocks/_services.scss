@@ -1,0 +1,92 @@
+.services {
+    min-height: 1164px;
+    padding: 74px 0 56px;
+    background: url('../img/services_bg.png') no-repeat 50%/cover;
+    &__subtitle {
+        margin-top: 14px;
+    }
+    &__table {
+        margin-top: 50px;
+    }
+    &__note {
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #939393;
+    }
+    &__btn {
+        margin: 51px auto 0;
+    }
+}
+
+.table {
+    min-height: 710px;
+    width: 100%;
+    background: #000000;
+    color: $white;
+    &__head {
+        font-weight: 600;
+        font-size: 18px;
+        color: $white;
+        text-align: center;
+        vertical-align: center;
+        border-bottom: 2px solid rgba(49, 49, 48, 0.3);
+    }
+    &__str {
+        padding-left: 30px;
+        max-width: 558px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+        span.table__str_s12 {
+            font-size: 14px;
+            display: block;
+        }
+    }
+    &__data:not(:first-child) {
+        text-align: center;
+        vertical-align: center;
+        padding: 0 34px;
+        &:nth-child(2) {
+            background: rgba(49, 49, 48, 0.3);
+        }
+        &:nth-child(4) {
+            background: rgba(49, 49, 48, 0.3);
+        }
+        span:not(span.table__str_s12) {
+            @include text-gradient;
+        }
+    }
+    &__text {
+        @include text-gradient;
+    }
+    &__total {
+        padding-left: 30px;
+        max-width: 558px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: $white;
+        &_gold {
+            font-weight: 600;
+            font-size: 18px;
+            @include text-gradient;
+        }
+    }
+    &__footer {
+        background: rgba(49, 49, 48, 0.4);
+        span {
+            @include text-gradient;
+        }
+    }
+    &__checked {
+        position: relative;
+        &:after {
+            content: url('../icons/services_checked.svg');
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@mixin text-gradient {
+    background-image: $main-color;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: $white;
+}

@@ -1,0 +1,42 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    height: 49px;
+    background: linear-gradient(180deg, #EEB67D 0%, #DA6C37 100%);
+    color: $white;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    &_main {
+        background: transparent;
+        border: 2px solid;
+        border-image: linear-gradient(180deg, #EEB67D 0%, #DA6C37 100%);
+        border-image-slice: 1;
+        text-decoration: none;
+        color: $white;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    &:hover {
+        background: transparent;
+        border: 2px solid;
+        border-image: linear-gradient(180deg, #EEB67D 0%, #DA6C37 100%);
+        border-image-slice: 1;
+        text-decoration: none;
+        color: $white;
+    }
+    &__inner {
+        text-decoration: none;
+        color: $white;
+        &:hover {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}

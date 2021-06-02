@@ -1,0 +1,27 @@
+.police {
+    min-height: 870px;
+    background: url('../img/police_bg.png') no-repeat 50%/cover;
+    padding: 69px 0 79px;
+    &__subtext {
+        max-width: 560px;
+        margin-top: 21px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+    }
+    &__text {
+        max-width: 560px;
+        margin-top: 38px;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 27px;
+        color: $white;
+    }
+    &__list {
+        margin-top: 36px;
+    }
+    &__btn {
+        margin-top: 38px;
+    }
+}
